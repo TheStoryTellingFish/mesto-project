@@ -1,0 +1,40 @@
+.popup__personal-info {
+  background: none;
+  padding: 0;
+  border: 0;
+  appearance: none;
+  padding-top: 42px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input::-webkit-input-placeholder {
+  color:#000000;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: normal;
+}
+input::-moz-placeholder {
+  color:#000000;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: normal;
+}
+input::-ms-input-placeholder {
+  color:#000000;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: normal;
+}
+input::placeholder {
+  color:#000000;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: normal;
+}
+
+@media (max-width: 767px) {
+  .popup__personal-info {
+    padding-top: 30px;
+  }
+}

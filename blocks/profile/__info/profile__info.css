@@ -1,0 +1,13 @@
+.profile__info {
+  display: flex;
+  justify-content: space-between;
+  gap: 19px;
+}
+
+@media (max-width: 767px) {
+  .profile__info {
+    gap: 10px;
+    padding-left: 47px;
+    padding-right: 19px;
+  }
+}

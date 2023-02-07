@@ -1,0 +1,21 @@
+.popup__button-close {
+  position: relative;
+  align-self: flex-end;
+  width: 32px;
+  height: 32px;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.popup__button-close:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .popup__button-close {
+    width: 20px;
+    height: 20px;
+  }
+}
+

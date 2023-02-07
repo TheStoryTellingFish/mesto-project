@@ -1,0 +1,18 @@
+.profile__info-prof {
+  margin: 0;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: normal;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media (max-width: 767px) {
+  .profile__info-prof {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-align: center;
+  }
+}

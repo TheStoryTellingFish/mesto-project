@@ -1,0 +1,7 @@
+.card__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 15px 21px;
+  background-color: #FFFFFF;
+  gap: 30px;
+}
