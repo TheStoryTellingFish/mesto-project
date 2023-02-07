@@ -1,21 +1,13 @@
 .popup__container {
-  position: absolute;
-  top: 155px;
-  left: calc((100vw - 510px)/2);
+  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 370px;
-  width: 510px;
-  gap: 8px;
+  padding-top: 40px;
+  padding-right: 40px;
 }
 
 @media (max-width: 767px) {
   .popup__container {
-    top: 87px;
-    left: calc((100vw - 282px)/2);
-    height: 358px;
-    width: 282px;
-    gap: 16px;
+    padding-top: 36px;
+    padding-right: 0;
   }
 }

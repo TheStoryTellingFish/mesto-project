@@ -11,6 +11,10 @@
   align-items: center;
   opacity: 1;
   transition: opacity 0.3s ease-in-out;
+  background-image: url(../../../images/icon_edit.svg);
+  background-repeat: no-repeat;
+  background-size: 10px;
+  background-position: center;
 }
 
 .profile__button-edit:hover {
@@ -23,5 +27,6 @@
     height: 18px;
     width: 18px;
     margin-top: 8px;
+    background-size: 7.5px;
   }
 }

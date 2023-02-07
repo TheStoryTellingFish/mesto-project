@@ -10,6 +10,11 @@
   align-items: center;
   opacity: 1;
   transition: opacity 0.3s ease-in-out;
+  background-image: url(../../../images/icon_add.svg);
+  background-repeat: no-repeat;
+  background-size: 22px;
+  background-position: center;
+  border-radius: 2px;
 }
 
 .profile__button-add:hover {
@@ -32,5 +37,6 @@
 @media (max-width: 767px) {
   .profile__button-add {
     width: 282px;
+    background-size: 16px;
   }
 }

@@ -6,7 +6,6 @@
 
 @media (max-width: 767px) {
   .profile__aboutme {
-    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;

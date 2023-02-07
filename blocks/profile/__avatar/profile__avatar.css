@@ -1,3 +1,9 @@
+.profile__avatar {
+  border-radius: 50%;
+  max-width: 120px;
+  max-height: 120px;
+}
+
 @media (max-width: 767px) {
   .profile__avatar {
     padding: 0 82px 0 80px;

@@ -1,17 +1,10 @@
 .popup__form {
   background-color: #FFFFFF;
-  height: 330px;
-  width: 430px;
+  width: 100%;
   display: flex;
   color: #000000;
   border-radius: 10px;
-}
-
-@media (max-width: 767px) {
-  .popup__form {
-    height: 322px;
-    width: 100%;
-  }
+  box-shadow: rgba(0, 0, 0, 0.15);
 }
 
 

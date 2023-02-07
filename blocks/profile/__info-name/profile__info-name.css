@@ -6,11 +6,13 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  max-width: 400px;
 }
 
 @media (max-width: 767px) {
   .profile__info-name {
     font-size: 27px;
     line-height: 33px;
+    max-width: 240px;
   }
 }

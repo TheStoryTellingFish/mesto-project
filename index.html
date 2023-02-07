@@ -14,80 +14,78 @@
     <main class="content">
       <section class="profile">
         <div class="profile__aboutme">
-          <img class="profile__avatar" src="./images/avatar_kusto.png" alt="Аватар профиля">
+          <img class="profile__avatar" src="./images/kusto.png" alt="Аватар профиля">
           <div class="profile__info">
             <div class="profile__info-text">
-              <p class="profile__info-name">Жак-Ив Кусто</p>
+              <h1 class="profile__info-name">Жак-Ив Кусто</h1>
               <p class="profile__info-prof">Исследователь океана</p>
             </div>
-            <button class="profile__button-edit"><svg class="profile__button-edit-icon" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg" fill="none"><path fill="#fff" d="M10 1.328 2.604 8.767 1.283 7.419 8.66 0 10 1.328ZM0 10l1.962-.588L.585 8.083 0 10Z"/></svg>
-            </button>
+            <button class="profile__button-edit" type="button" aria-label="Редактировать"></button>
           </div>
         </div>
-        <button class="profile__button-add" type="submit"><svg class="profile__button-add-icon" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="none"><path fill="#fff" d="M22 9.778h-9.778V0H9.778v9.778H0v2.444h9.778V22h2.444v-9.778H22V9.778Z"/></svg>
-        </button>
+        <button class="profile__button-add" type="button" aria-label="Добавить"></button>
       </section>
-      <div class="popup">
-        <div class="popup__container">
-        <svg class="popup__button-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none"><path fill="#fff" d="m32.79 29.59-12.8-12.8 12.8-12.8-3.2-3.2-12.8 12.8L3.99.79l-3.2 3.2 12.8 12.8-12.8 12.8 3.2 3.2 12.8-12.8 12.8 12.8 3.2-3.2Z"/></svg>
-        <form class="popup__form">
-          <fieldset class="popup__edit-form">
-            <p class="popup__title">Редактировать профиль</p>
-            <input class="popup__personal-info" type="text" name="firstname" placeholder="Жак-Ив Кусто">
-            <input class="popup__personal-info" type="text" name="profession" placeholder="Исследователь океана">
-            <button class="popup__button-save" type="submit">Сохранить</button>
-          </fieldset>
-        </form>
-      </div>
-      </div>
       <section class="gallery">
-        <div class="card">
+        <article class="card">
           <img class="card__image" src="./images/card_karachaevsk.png" alt="Заброшенный храм">
           <div class="card__container">
             <h2 class="card__title">Карачаево-Черкессия</h2>
-            <button class="card__button-like card__button-like_active" type="button"></button>
+            <button class="card__button-like card__button-like_active" type="button" aria-label="Нравится"></button>
           </div>
-        </div>
-        <div class="card">
+        </article>
+        <article class="card">
           <img class="card__image" src="./images/card_elbrus.png" alt="Эльбрус на фоне оранжевого неба">
           <div class="card__container">
             <h2 class="card__title">Гора Эльбрус</h2>
-            <button class="card__button-like card__button-like_active" type="button"></button>
+            <button class="card__button-like card__button-like_active" type="button" aria-label="Нравится"></button>
           </div>
-        </div>
-        <div class="card">
+        </article>
+        <article class="card">
           <img class="card__image" src="./images/card_dombay.png" alt="Горная цепь">
           <div class="card__container">
             <h2 class="card__title">Домбай</h2>
-            <button class="card__button-like card__button-like_active" type="button"></button>
+            <button class="card__button-like card__button-like_active" type="button" aria-label="Нравится"></button>
           </div>
-        </div>
-        <div class="card">
+        </article>
+        <article class="card">
           <img class="card__image" src="./images/card_baikal.jpg" alt="Зимнее озеро Байкал">
           <div class="card__container">
             <h2 class="card__title">Озеро Байкал</h2>
-            <button class="card__button-like card__button-like_active" type="button"></button>
+            <button class="card__button-like card__button-like_active" type="button" aria-label="Нравится"></button>
           </div>
-        </div>
-        <div class="card">
+        </article>
+        <article class="card">
           <img class="card__image" src="./images/card_kareliya.jpg" alt="Пейзаж Карелии">
           <div class="card__container">
             <h2 class="card__title">Карелия</h2>
-            <button class="card__button-like card__button-like_active" type="button"></button>
+            <button class="card__button-like card__button-like_active" type="button" aria-label="Нравится"></button>
           </div>
-        </div>
-        <div class="card">
+        </article>
+        <article class="card">
           <img class="card__image" src="./images/card_ural.jpg" alt="Уральские горы летом">
           <div class="card__container">
             <h2 class="card__title">Уральские горы</h2>
-            <button class="card__button-like card__button-like_active" type="button"></button>
+            <button class="card__button-like card__button-like_active" type="button" aria-label="Нравится"></button>
           </div>
-        </div>
+        </article>
       </section>
     </main>
     <footer class="footer">
       <p class="footer__copyright">&copy; 2023 Mesto Russia</p>
     </footer>
+    <div class="popup">
+      <div class="popup__container">
+        <form class="popup__form" name="editform">
+          <fieldset class="popup__edit-form">
+            <h2 class="popup__title">Редактировать профиль</h2>
+            <input class="popup__personal-info" type="text" name="firstname" placeholder="Жак-Ив Кусто">
+            <input class="popup__personal-info" type="text" name="profession" placeholder="Исследователь океана">
+            <button class="popup__button-save" type="submit">Сохранить</button>
+          </fieldset>
+        </form>
+        <button class="popup__button-close" type="button" aria-label="Закрыть"></button>
+      </div>
+    </div>
   </div>
 </body>
 </html>
