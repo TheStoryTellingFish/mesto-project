@@ -19,7 +19,7 @@
 
 **Ссылка на GitHub Pages**
 
-[]
+[https://thestorytellingfish.github.io/mesto-project/]
 
 **Планы**
 
