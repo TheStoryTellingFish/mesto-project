@@ -1,13 +1,10 @@
 .popup__container {
-  position: relative;
   display: flex;
-  padding-top: 40px;
-  padding-right: 40px;
+  position: relative;
 }
 
 @media (max-width: 767px) {
   .popup__container {
-    padding-top: 36px;
-    padding-right: 0;
+
   }
 }
