@@ -1,8 +1,11 @@
 .card {
   display: flex;
   flex-direction: column;
-  max-width: 282px;
+  width: 282px;
+  height: 362px;
   box-sizing: border-box;
   border-radius: 10px;
   overflow: hidden;
+  position: relative;
 }
+

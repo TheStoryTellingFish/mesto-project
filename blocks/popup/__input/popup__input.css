@@ -1,29 +1,29 @@
-.popup__personal-info::-webkit-input-placeholder {
+.popup__input::-webkit-input-placeholder {
   color:#000000;
   font-size: 14px;
   line-height: 17px;
   font-weight: normal;
 }
-.popup__personal-info::-moz-placeholder {
+.popup__input::-moz-placeholder {
   color:#000000;
   font-size: 14px;
   line-height: 17px;
   font-weight: normal;
 }
-.popup__personal-info::-ms-input-placeholder {
+.popup__input::-ms-input-placeholder {
   color:#000000;
   font-size: 14px;
   line-height: 17px;
   font-weight: normal;
 }
-.popup__personal-info::placeholder {
+.popup__input::placeholder {
   color:#000000;
   font-size: 14px;
   line-height: 17px;
   font-weight: normal;
 }
 
-.popup__personal-info {
+.popup__input {
   background: none;
   padding: 0;
   border: 0;

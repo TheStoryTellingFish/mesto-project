@@ -1,0 +1,6 @@
+.card__img-container {
+  height: 282px;
+  width: 282px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
