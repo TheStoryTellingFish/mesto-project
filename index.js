@@ -33,8 +33,8 @@ function closePopup(popup) {
 
 // Открывем форму редактирования профиля
 buttonEdit.addEventListener('click', function () {
-  nameInput.textContent = nameProfile.value;
-  jobInput.textContent = jobProfile.value;
+  nameInput.value = nameProfile.textContent;
+  jobInput.value = jobProfile.textContent;
   openPopup(popupProfile);
 });
 
@@ -54,6 +54,8 @@ function handleFormSubmit(evt) {
 
     nameProfile.textContent = nameInput.value;
     jobProfile.textContent = jobInput.value;
+
+    closePopup(popupProfile);
 }
 
 // Прикрепляем обработчик к форме:он будет следить за событием “submit” - «отправка»
@@ -96,6 +98,7 @@ const initialCards = [
 function showImage (image, title) {
 
   popupImage.src = image.src;
+  popupImage.alt = image.alt;
   popupCaption.textContent = title.textContent;
   openPopup(popupPhoto);
 };
@@ -135,11 +138,12 @@ buttonAdd.addEventListener('click', ()=>openPopup(popupPlace));
 
 //4. Добавление карточки
 
-function addCard(imageValue, titleValue) {
-  const cardItem = createCard(card);
+function addCard(url, title) {
 // наполняем содержимым
-cardItem.querySelector('.card__image').src = imageValue.value;
-cardItem.querySelector('.card__title').textContent = titleValue.value;
+const cardTitle = title.value;
+const cardUrl = url.value;
+const cardItem = createCard({ name: cardTitle, link: cardUrl });
+
 // отображаем на странице
 galleryCards.prepend(cardItem);
 }
